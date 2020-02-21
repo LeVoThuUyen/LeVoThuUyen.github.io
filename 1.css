@@ -1,6 +1,7 @@
 *{margin: 0; padding: 0;} 
 body{
-	font-family: "";
+	font-family: segoe ui;
+	position: relative; 
 }
 h1{
 	text-align: center;
@@ -9,10 +10,9 @@ h1{
 }
 .carousel-item img{
 width: 1280px;
-height: 500px;
+height: 560px;
 }
 .nav-item{
-	font-family: segoe ui;
 	text-transform: uppercase;
 	font-size: 18px;
 }s
