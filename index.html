@@ -1,32 +1,94 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<title> Example </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">    	
-	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="1.css">
-</head>
-<body >
-	<div class="menu">
-		<a href="index.html">Quay lại Home</a>
-	 	<a href="gallery.html">Xem gallery </a>
-	</div>
- 	 <h1>Le Vo Thu Uyen</h1>
- 	 <hr>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Navbar Example</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="1.css">
+   </head>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+ 
+<nav class="navbar navbar-expand-md bg-dark navbar-dark navbar fixed-top ">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Le Vo Thu Uyen</a>
 
- 	 <div class="info">
- 	 	<b>Name : </b><i> Le Vo Thu Uyen</i>
- 	 </div>
- 	 <div class="info">
- 	 	<b>Date of birth : </b><i> 03/04/1998 </i>
- 	 </div>
- 	 <div class="info">
- 	 	<b>PhoneNumber : </b><i> 0936363998 </i>
- 	 </div>
- 	 <div class="info">
- 	 	<b>Facebook : </b><a href="">https://www.facebook.com/lang.gio.96</a>
- 	 </div>
- 	<script type="text/javascript" src="1.js"></script>
-</body>
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#blog">Blog</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+    </ul>
+  </div>
+</nav>	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Picture/1.jpg" alt="Sharing" >
+        <div class="carousel-caption">
+    		<h3>Sharing</h3>
+    		<p>We had such a great time in LA!</p>
+  		</div>
+    </div>
+    <div class="carousel-item">
+      <img src="Picture/2.jpeg" alt="Learning" >
+      <div class="carousel-caption">
+    		<h3>Learning</h3>
+    		<p>We had such a great time in LA!</p>
+  		</div>
+    </div>
+    <div class="carousel-item">
+      <img src="Picture/3.jpg" alt="Working" >
+      <div class="carousel-caption">
+    		<h3>Working</h3>
+    		<p>We had such a great time in LA!</p>
+  		</div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+ 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+   </body>
+ 
 </html>

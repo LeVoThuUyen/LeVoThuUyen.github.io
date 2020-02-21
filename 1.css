@@ -4,4 +4,15 @@ body{
 }
 h1{
 	text-align: center;
+}#collapsibleNavbar{
+	float: right;
 }
+.carousel-item img{
+width: 1280px;
+height: 500px;
+}
+.nav-item{
+	font-family: segoe ui;
+	text-transform: uppercase;
+	font-size: 18px;
+}s
